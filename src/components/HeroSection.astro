@@ -1,0 +1,30 @@
+---
+import Arrow from './icons/Arrow.astro'
+---
+
+<section class='h-screen w-screen flex relative'>
+  <div
+    class='flex-col flex md:flex-row justify-center items-center bg-slate-700 z-20 w-full md:w-3/4'
+  >
+    <div class='w-screen p-4 md:w-1/2 mx-16 md:mr-52'>
+      <h2 class='text-4xl 2xl:text-6xl font-black text-white'>
+        FIND BEST <span class='text-emerald-400'>EV</span> FOR YOURSELF
+      </h2>
+      <p class='py-4 my-4 text-white text-2xl 2xl:text-4xl font-light'>
+        Turpis. Fusce pretium, libero eu pulvinar suscipit, augue ante
+        sollicitudin risus, eget commodo erat lorem eget massa
+      </p>
+      <a
+        class='flex text-base w-36 md:w-48 h-12 hover:scale-110 duration-200 animate-scale items-center justify-center rounded-xl bg-emerald-400 px-2 py-2 md:text-lg 2xl:text-3xl font-normal shadow-md text-gray-900'
+        href=''>Explore more <Arrow /></a
+      >
+    </div>
+    <div
+      class='filter drop-shadow-emerald -rotate-45 md:hover:animate-jump transition duration-300 md:rotate-0 absolute overflow-hidden -right-64 md:-right-96 lg:-right-[150px] -bottom-12 h-[325px] w-[540px] md:bottom-auto md:h-auto md:w-auto lg:h-[500px] lg:w-[900px]'
+    >
+      <img src='/LambosMockup1.webp' alt='iphone1' class='size-full' />
+    </div>
+  </div>
+
+  <svg class='hidden md:block h-screen w-screen bg-emerald-400 absolute'></svg>
+</section>

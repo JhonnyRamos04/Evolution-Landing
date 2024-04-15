@@ -1,0 +1,31 @@
+---
+import Arrow from './icons/Arrow.astro'
+---
+
+<section class='w-screen md:h-[450px] md:content-center bg-slate-700'>
+  <div
+    class='flex flex-col gap-2 md:gap-1 md:flex-row justify-center items-center'
+  >
+    <div
+      class='py-4 px-12 md:px-32 w-auto md:w-2/5 md:mr-64 flex flex-col gap-4'
+    >
+      <h2 class='text-3xl font-bold text-emerald-400 w-52'>
+        Test Ride on your location
+      </h2>
+      <p class='text-base font-light text-white'>
+        Suscipit sapien, et semper erat. Curabitur facilisis nisl at lectus
+        pretium, faucibus molestie massa condimentum. Nullam eget viverra
+        turpis.
+      </p>
+      <a
+        class='text-emerald-400 hover:scale-110 duration-200 animate-scale w-32 flex justify-start items-center'
+        href='#'>Read more <Arrow /></a
+      >
+    </div>
+    <div
+      class='w-[900px] h-[500px] md:w-[700px] md:h-[400px] filter drop-shadow-emerald md:absolute overflow-hidden right-20 max-xl:-right-32 md:rotate-2'
+    >
+      <img src='/LambosMockup3.webp' alt='iphone1' class='size-full' />
+    </div>
+  </div>
+</section>

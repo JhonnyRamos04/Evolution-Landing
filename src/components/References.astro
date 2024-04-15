@@ -1,0 +1,20 @@
+---
+import Cards from './Cards.astro'
+import Scan from './Scan.astro'
+---
+
+<section class='w-screen bg-slate-700 overflow-hidden'>
+  <div class='text-white font-black text-4xl text-center'>
+    <h1 class='pt-24 pb-12'>
+      WHAT OUR <span class='text-emerald-400'>EV ENTHUSIAST</span> AREA SAYING
+    </h1>
+  </div>
+  <div
+    class='relative overflow-scroll md:overflow-hidden md:static md:m-0 md:justify-center md:items-center snap-x snap-mandatory px-4 pb-6 flex ml-7 mr-6 gap-10'
+  >
+    <Cards />
+    <Cards />
+    <Cards />
+  </div>
+  <Scan />
+</section>
